@@ -9,8 +9,7 @@
     "dev:css": "npm run generate:css -- --watch",
     "dev:remix": "remix dev",
     "generate:css": "npx tailwindcss -i ./styles/tailwind.css -o ./app/tailwind.css",
-    "start-dev": "remix-serve build",
-    "start": "cross-env NODE_ENV=production netlify dev"
+    "start": "remix-serve build"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",
